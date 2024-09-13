@@ -11,10 +11,9 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    username: {
+    password: {
       type: String,
       required: true,
-      unique: true,
     },
   },
   { timestamps: true }
